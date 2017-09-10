@@ -90,12 +90,14 @@
 	<body>
 		<script>
 			function play(){
-				var audio = document.getElementById("audio");
+				var audio = document.getElementById("chord");
 				audio.play();
 							}
 		</script>
 		<input type="image" src="http://cdn.shopify.com/s/files/1/0822/1983/articles/hourglass-pixel-art-pixel-art-hourglass-sandglass-time-sand-clock-sand-timer-pixel-8bit.png" id="output" value="PLAY"  onclick="play()">
-		<audio id="audio" src="https://starfallrx.github.io/waiting/beep1.wav" ></audio>
+		<audio id="chord">
+			<source src="beep1.wav" type="audio/wav" />
+		</audio>
 	</body>
 
 </html>
