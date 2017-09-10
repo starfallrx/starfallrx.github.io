@@ -7,16 +7,26 @@
 	<title>starfall's stuff</title>
 </head>
 
+
 <body>
-	<center>
-		<h1 id="head">starfall's stuff</h1>
-		<a href="https://twitter.com/starfallrx">twitter</a>
-		<a href="https://www.youtube.com/channel/UCahev5v05pSqpu8lG7xJnaQ">youtube</a>
-		<a href="https://twitch.tv/starfallrx">twitch</a>
-		<h2>things i've made and done</h2>
-		<a href="https://starfallrx.github.io/whywaved/">Why Waved</a>
-		<p>more coming soon</p>
-	</center>
+		<center>
+			<h1 id="head">starfall's stuff</h1>
+			<a href="https://twitter.com/starfallrx">twitter</a>
+			<a href="https://www.youtube.com/channel/UCahev5v05pSqpu8lG7xJnaQ">youtube</a>
+			<a href="https://twitch.tv/starfallrx">twitch</a>
+			<h2>things i've made and done</h2>
+			<a href="https://starfallrx.github.io/whywaved/">Why Waved</a>
+			<p>more coming soon</p>
+			<a onclick="tomoImage" id="tomoClick">Tomo</a>
+		</center>
+
+		<script>
+			document.getElementById("tomoClick").addEventListener("click", tomoImage);
+			
+			function tomoImage() {
+				document.body.style.backgroundImage = "url(image.jpg)";
+			}
+		</script>
 </body>
 
 </html>
