@@ -50,7 +50,8 @@ p {
 }
 
 #tomoClick {
-	position: fixed;
-	left: 97%;
-	top: 98%;
+	position: absolute; 
+	bottom: 5px; 
+	right: 5px; 
+	text-align: right; 
 }
